@@ -7,6 +7,6 @@
     "json-server": "^0.17.4"
   },
   "scripts": {
-    "start": "json-server --watch users.json"
+    "start": "json-server -H 0.0.0.0 users.json"
   }
 }

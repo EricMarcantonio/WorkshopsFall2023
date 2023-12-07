@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      dockerfile: Dockerfile
+      context: fall2023/
+    ports:
+      - 3000:3000
+
+  frontend:
+    image: nginx
+    ports:
+      - 80:80
